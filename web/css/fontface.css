@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'db_helvethaica_x55_regular';
+    src: url('../fonts/dbhelvethaicax/dbhelvethaicax-55regular-webfont.eot');
+    src: url('../fonts/dbhelvethaicax/dbhelvethaicax-55regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dbhelvethaicax/dbhelvethaicax-55regular-webfont.woff2') format('woff2'),
+         url('../fonts/dbhelvethaicax/dbhelvethaicax-55regular-webfont.woff') format('woff'),
+         url('../fonts/dbhelvethaicax/dbhelvethaicax-55regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

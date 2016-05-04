@@ -1,0 +1,78 @@
+include header.jade
+.contain
+      .row.preview_image
+        img(src='images/header.jpg')
+      .row.post-blog
+        .col-md-4.blog(style="background-image: url('images/blog1.jpg');")
+          .title
+            p มองหาประกัน
+            h3 รถยนต์
+          .hover
+            ul
+              li
+                a(href='#') ซื้อเลย
+              li
+                a(href='#') เรียนรู้เพิ่มเติม
+        .col-md-4.blog(style="background-image: url('images/blog2.jpg');")
+          .title
+            p  มองหาประกัน
+            h3 สุขภาพ
+          .hover
+            ul
+              li
+                a(href='#') ซื้อเลย
+              li
+                a(href='#') เรียนรู้เพิ่มเติม
+        .col-md-4.blog(style="background-image: url('images/blog3.jpg');")
+          .title
+            p มองหาประกัน
+            h3 การเดินทาง
+          .hover
+            ul
+              li
+                a(href='#') ซื้อเลย
+              li
+                a(href='#') เรียนรู้เพิ่มเติม
+      .row.query-search
+         p something
+      .row.support
+          h2 บริการลูกค้า
+          p หากคุณมีความคิดเห็น ข้อเสนอแนะหรือข้อร้องเรียนใดๆ เรายินดีรับฟังจากคุณ ทั้งลูกค้าและคู่ค้าทางธุรกิจของเรา
+      .row.container.width.service
+        .col-md-4.box
+           .col-md-4.icon
+               img(src="images/calm.png")
+           .col-md-8.text
+                 h3 แจ้งเคลม
+                 p เมื่อเกิดอุบัติเหตุ ขอให้ท่านดำเนินการตามคำแนะนำ กรุณากดปุ่มด้านล่างเพื่อดูขั้นตอนการส่งเคลม
+                 a(href="#") 
+                   i(class="fa fa-angle-right", aria-hidden="hidden")  
+                   อ่านต่อ
+        .col-md-4.box
+            .col-md-4.icon
+                img(src="images/hospital.png")
+            .col-md-8.text
+                  h3 ค้นหาโรงพยาบาล หรือ คลินิก
+                  p ท่านสามารถหารายชื่อโรงพยาบาลในเครือใกล้บ้านได้ที่นี้
+                  a(href="#") 
+                    i(class="fa fa-angle-right", aria-hidden="hidden")  
+                    อ่านต่อ
+        .col-md-4.box
+            .col-md-4.icon
+                img(src="images/repair.png")
+            .col-md-8.text
+                  h3 ค้นหาอู่รถยนต์ อู่ประกัน อู่ห้าง
+                  p ท่านสามารถหารายชื่ออู่ซ่อมรถในเครือใกล้บ้านได้ที่นี่
+                  a(href="#") 
+                    i(class="fa fa-angle-right", aria-hidden="hidden")  
+                    อ่านต่อ
+      .row.video(style="background-image: url('images/bg_video.jpg');")
+         .text 
+           .row
+             h3 ปกป้องคุณจากเหตุไม่คาดฝัน
+           .row
+             p ด้วยความคุ้มครองที่เหนือกว่าจากแอกซ่า
+           .row
+             a(href="https://www.youtube.com/watch?v=0h3NeVv8AGg", class="magnific-youtube") 
+               i(class="fa fa-play-circle", aria-hidden="hidden")  
+include footer.jade
